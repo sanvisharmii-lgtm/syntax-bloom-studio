@@ -41,9 +41,9 @@ const HeroSection = () => {
               A 15-hour interactive Python course where you learn, practice, and run code directly in your browser.
             </p>
 
-            <div className="flex flex-wrap gap-4 mb-16">
+            <div className="flex flex-wrap items-center gap-4 mb-16">
               <button className="rounded-full bg-primary px-8 py-3.5 text-base font-semibold text-primary-foreground transition-all hover:opacity-90 glow-gold">
-                Start Learning Free
+                Enroll for $99
               </button>
               <button className="rounded-full border border-border px-8 py-3.5 text-base font-medium text-foreground transition-all hover:bg-secondary">
                 View Curriculum
