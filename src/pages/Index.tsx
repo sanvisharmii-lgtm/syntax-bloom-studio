@@ -6,6 +6,7 @@ import WhyDifferent from "@/components/WhyDifferent";
 import Curriculum from "@/components/Curriculum";
 import StudentFeatures from "@/components/StudentFeatures";
 import Outcomes from "@/components/Outcomes";
+import Certificate from "@/components/Certificate";
 import Reviews from "@/components/Reviews";
 import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
@@ -22,6 +23,7 @@ const Index = () => {
       <Curriculum />
       <StudentFeatures />
       <Outcomes />
+      <Certificate />
       <Reviews />
       <FAQSection />
       <Footer />
