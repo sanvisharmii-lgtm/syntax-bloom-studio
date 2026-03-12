@@ -6,8 +6,10 @@ import WhyDifferent from "@/components/WhyDifferent";
 import Curriculum from "@/components/Curriculum";
 import StudentFeatures from "@/components/StudentFeatures";
 import Outcomes from "@/components/Outcomes";
+import Reviews from "@/components/Reviews";
 import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
+import StickyEnrollBar from "@/components/StickyEnrollBar";
 
 const Index = () => {
   return (
@@ -20,8 +22,10 @@ const Index = () => {
       <Curriculum />
       <StudentFeatures />
       <Outcomes />
+      <Reviews />
       <FAQSection />
       <Footer />
+      <StickyEnrollBar />
     </div>
   );
 };
