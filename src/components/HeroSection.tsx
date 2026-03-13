@@ -51,7 +51,7 @@ const HeroSection = () => {
             </div>
 
             <p className="text-sm text-text-secondary mb-4">
-              Course fee: <span className="font-semibold text-foreground">$99</span> · Free to enroll
+              Course fee: <span className="font-semibold text-foreground">$99</span> · First 30 minutes free · No credit card required
             </p>
 
             <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-2 text-sm mb-16">
