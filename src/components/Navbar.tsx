@@ -1,5 +1,6 @@
 import { motion, useMotionValueEvent, useScroll } from "framer-motion";
 import { useState } from "react";
+import ThemeToggle from "./ThemeToggle";
 
 const Navbar = () => {
   const { scrollY } = useScroll();
@@ -34,6 +35,7 @@ const Navbar = () => {
           <a href="#curriculum" className="hidden md:inline hover:text-foreground transition-colors">Curriculum</a>
           <a href="#reviews" className="hidden md:inline hover:text-foreground transition-colors">Reviews</a>
           <a href="#faq" className="hidden md:inline hover:text-foreground transition-colors">FAQ</a>
+          <ThemeToggle />
         </div>
       </div>
     </motion.nav>
