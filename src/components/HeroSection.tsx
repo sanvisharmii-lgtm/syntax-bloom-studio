@@ -41,13 +41,24 @@ const HeroSection = () => {
               A 15-hour interactive Python course where you learn, practice, and run code directly in your browser.
             </p>
 
-            <div className="flex flex-wrap items-center gap-4 mb-16">
+            <div className="flex flex-wrap items-center gap-4 mb-6">
               <button className="rounded-full bg-primary px-8 py-3.5 text-base font-semibold text-primary-foreground transition-all hover:opacity-90 glow-gold">
-                Enroll for $99
+                Enroll for Free
               </button>
               <button className="rounded-full border border-border px-8 py-3.5 text-base font-medium text-foreground transition-all hover:bg-secondary">
                 View Curriculum
               </button>
+            </div>
+
+            <p className="text-sm text-text-secondary mb-4">
+              Course fee: <span className="font-semibold text-foreground">$99</span> · Free to enroll
+            </p>
+
+            <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-2 text-sm mb-16">
+              <span className="text-primary font-semibold">🎓 Students get $10 off!</span>
+              <a href="#verify-student" className="text-primary underline underline-offset-2 hover:opacity-80 text-xs font-medium">
+                Verify now →
+              </a>
             </div>
 
             <div className="grid grid-cols-4 gap-6">
