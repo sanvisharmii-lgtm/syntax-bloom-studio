@@ -12,7 +12,7 @@ const StickyEnrollBar = () => {
         <div className="hidden sm:flex items-center gap-6">
           <div>
             <p className="text-sm font-medium text-foreground">Learn Python by Doing</p>
-            <p className="text-xs text-text-tertiary">30+ hours · 70 exercises · Certificate</p>
+            <p className="text-xs text-text-tertiary">30+ hours · 70 exercises · First 30 min free</p>
           </div>
           <div className="flex items-baseline gap-2">
             <span className="text-2xl font-bold text-foreground">$99</span>
